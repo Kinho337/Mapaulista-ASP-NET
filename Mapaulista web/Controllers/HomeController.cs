@@ -18,6 +18,11 @@ namespace Mapaulista_web.Controllers
             return View();
         }
 
+        public IActionResult TelaInicial()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
@@ -28,5 +33,7 @@ namespace Mapaulista_web.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
     }
 }
